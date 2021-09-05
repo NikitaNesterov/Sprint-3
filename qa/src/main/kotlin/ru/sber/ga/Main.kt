@@ -1,4 +1,4 @@
-package ru.sber.qa
+package kotlin.qa
 
 fun main(args: Array<String>) {
 

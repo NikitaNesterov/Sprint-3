@@ -1,4 +1,4 @@
-package ru.sber.qa
+package kotlin.qa
 
 import java.time.Clock
 import java.time.DayOfWeek

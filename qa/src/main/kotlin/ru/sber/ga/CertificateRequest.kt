@@ -1,4 +1,4 @@
-package ru.sber.qa
+package kotlin.qa
 
 /**
  * Запрос на изготовление справки.

@@ -1,4 +1,4 @@
-package ru.sber.qa
+package kotlin.qa
 
 import kotlin.random.Random
 
