@@ -10,7 +10,7 @@ data class User(val name: String, val age: Long) {
         if (other !is User)
             return false
         else {
-            if (other.city == this.city)
+            if ((other.city == this.city) && (other.age == this.age) && (other.name == this.name) )
                 return true
         }
         return false
