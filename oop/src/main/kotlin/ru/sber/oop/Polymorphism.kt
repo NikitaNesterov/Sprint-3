@@ -23,6 +23,7 @@ class Player(
         } else {
             damageRoll * 2
         }
+        opponent.healthPoints -= damageAmount
         return damageAmount
     }
 }
@@ -33,6 +34,7 @@ abstract class Monster(
 ) : Fightable {
     override fun attack(opponent: Fightable): Int {
         val damageAmount = damageRoll
+        opponent.healthPoints -= damageAmount
         return damageAmount
     }
 
